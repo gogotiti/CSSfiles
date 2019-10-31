@@ -1,3 +1,38 @@
-.prueba {
-background: red;
+.nav_botom{
+display: inline-flex;
+margin-left: 10px;
+}
+#select {
+display: none;
+}
+.Large {
+transition: all 0.3s;
+}
+.Small {
+    height: 65px;
+    background-color: rgba(51,51,51,0.6);
+transition: all 0.3s;
+}
+
+.Large .NavBoton{
+transition: all 0.3s;
+}
+
+.Small .NavBoton{
+    margin-top: 20px;
+transition: all 0.3s;
+}
+
+
+.indType1 {
+ width: 16px;
+height: 100px;
+ top: calc(50vh - 50px);
+margin-left: 0;
+    left: 95%;
+}
+
+.indType1 li {
+ width: 15px;
+height: 15px;
 }
